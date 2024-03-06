@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <style>
+            div{
+  display:inline-block;
+  background-color: aquamarine;
+  border-color:green;
+  width: 50px;
+  height: 40px;
+  position: relative;
+  animation-name:ROHIT;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 4s;
+  animation-direction: reverse;
+            }
+            @keyframes ROHIT{
+                0%   {background-color:red; bottom:0px; top:0px;}
+                25%  {background-color:yellow; bottom:50px; top:50px;}
+                50%  {background-color:blue; bottom:100px; top:100px;}
+                75%  {background-color:green; bottom:150px; top:150px;}
+                100% {background-color:greenyellow; bottom:200px; top:200px;}
+}
+#B{
+    animation-delay: 2s;
+}
+#H{
+    animation-delay: 3s;
+}
+#A{
+    animation-delay: 4s;
+}
+#N{
+    animation-delay: 5s;
+}
+#U{
+    animation-delay: 6s;
+}
+
+
+            #B{
+                border-style: solid;
+                padding: 20px;
+            }
+            #H{
+                border-style: solid;
+                padding: 20px;
+            }
+            #A{
+                border-style: solid;
+                padding: 20px;
+            }
+            #N{
+                border-style: solid;
+                padding: 20px;
+            }
+            #U{
+                border-style: solid;
+                padding: 20px;
+            }
+            </style>
+    </head>
+<body>
+    <div id="R">B</div>
+    <div id="O">H</div>
+    <div id="H">A</div>
+    <div id="I">N</div>
+    <div id="T">U</div>
+</body>
+</html>
